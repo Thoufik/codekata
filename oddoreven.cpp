@@ -1,17 +1,19 @@
-#include <iostream>
-using namespace std;
+#include<iostream.h>
+#include<conio.h>
 
-int main()
+void main()
 {
-    int n;
-
-    cout << "Enter an integer: ";
-    cin >> n;
-
-    if ( n % 2 == 0)
-        cout << n << " is even.";
-    else
-        cout << n << " is odd.";
-
-    return 0;
+int no;
+clrscr();
+cout<<"Enter any num=76: ";
+cin>>no;
+if(no%2==0)
+{
+cout<<"Even num";
+}
+else
+{
+cout<<"Odd num";
+}
+getch();
 }
