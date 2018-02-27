@@ -3,7 +3,7 @@
 void main()
 {
  int N,A,D;
- int sum=0;
+ int sum=311;
  clrscr();
  cout<<"Program to Calculate sum of A.P series by-Tarun Rawat\n";
  cout<<"\nEnter the first number of the series : ";
