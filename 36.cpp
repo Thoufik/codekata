@@ -1,14 +1,23 @@
 #include<iostream>
 using namespace std;
- void Count(string str)
+void Count(string str)
 {
-    special = 0;
+    int upper = 0, lower = 0, number = 0, special = 0;
     for (int i = 0; i < str.length(); i++)
     {
         if (str[i] >= 'A' && str[i] <= 'Z')
+            upper++;
+        else if (str[i] >= 'a' && str[i] <= 'z')
+            lower++;
+        else if (str[i]>= '0' && str[i]<= '9')
+            number++;
+        else
             special++;
     }
-     cout << "Special characters : " << special << endl;
+    cout << "Upper case letters: " << upper << endl;
+    cout << "Lower case letters : " << lower << endl;
+    cout << "Number : " << number << endl;
+    cout << "Special characters : " << special << endl;
 }
 int main()
 {
@@ -16,3 +25,4 @@ int main()
     Count(str);
     return 0;
 }
+Run on IDE
