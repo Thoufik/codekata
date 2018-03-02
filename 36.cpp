@@ -21,7 +21,7 @@ void Count(string str)
 }
 int main()
 {
-    string str = "#GeeKs01fOr@gEEks07";
+    string str = "#Greaters01fOr@gEEks07";
     Count(str);
     return 0;
 }
