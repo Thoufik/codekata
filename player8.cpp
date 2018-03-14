@@ -15,17 +15,12 @@ int res_ind = 0;
         else
             s[res_ind++] = s[i];        
     }
- 
-    s[res_ind] = '\0';
- 
-    // return string to main
+  s[res_ind] = '\0';
     return s;
 }
- 
-// Driver program
 int main()
 {
-    string str = "I get intern at geeksforgeeks";
+    string str = "I get intern in ibm";
     cout << convert(str);
     return 0;
 }
